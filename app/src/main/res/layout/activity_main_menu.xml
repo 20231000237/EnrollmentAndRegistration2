@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/element_bg1"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="MAIN MENU"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:text="User Profile"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/studentnolabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:text="Student Number:"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/namelabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Full Name:"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/fullname"
+            app:layout_constraintStart_toStartOf="@+id/studentnolabel"
+            app:layout_constraintTop_toTopOf="@+id/fullname" />
+
+        <TextView
+            android:id="@+id/statuslabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textSize="15dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="@+id/namelabel"
+            app:layout_constraintTop_toBottomOf="@+id/fullname" />
+
+        <TextView
+            android:id="@+id/studentno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20231000001"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/studentnolabel"
+            app:layout_constraintStart_toEndOf="@+id/studentnolabel"
+            app:layout_constraintTop_toTopOf="@+id/studentnolabel" />
+
+        <TextView
+            android:id="@+id/fullname"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:breakStrategy="simple"
+            android:maxLines="3"
+            android:text="DOE, JOHN S."
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/namelabel"
+            app:layout_constraintTop_toBottomOf="@+id/studentnolabel" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTERED"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/statuslabel"
+            app:layout_constraintStart_toEndOf="@+id/statuslabel"
+            app:layout_constraintTop_toTopOf="@+id/statuslabel" />
+
+        <Button
+            android:id="@+id/registerbtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Register"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/statuslabel" />
+
+        <Button
+            android:id="@+id/enrollbtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="enroll"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerbtn" />
+
+        <Button
+            android:id="@+id/feebtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="32dp"
+            android:text="fees"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/enrollbtn" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

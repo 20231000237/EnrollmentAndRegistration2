@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Laboratory Fee",
+    "fee": 1500
+  },
+  {
+    "name": "Library Fee",
+    "fee": 1000
+  },
+  {
+    "name": "Medical/Dental Fee",
+    "fee": 750
+  },
+  {
+    "name": "Equipment Fee",
+    "fee": 1200
+  }
+]

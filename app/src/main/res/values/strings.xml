@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EnrollmentAndRegistration2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addnew"><u>Add New Student</u></string>
+    <string name="login"><u>Login</u></string>
+
+</resources>
