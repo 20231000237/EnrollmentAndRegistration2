@@ -6,4 +6,8 @@
         <item name="android:statusBarColor">#FFFFFF</item> <!-- Deep orange -->
 
     </style>
+
+    <style name="Theme.EnrollmentAndRegistration2" parent="Base.Theme.EnrollmentAndRegistration2">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
 </resources>

@@ -106,14 +106,16 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="No Student Account? " />
+                android:text="No Student Account? "
+                />
 
             <TextView
                 android:id="@+id/addNewStudentBtn"
                 android:textColor="#0000EE"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/addnew" />
+                android:text="@string/addnew"
+                />
 
         </LinearLayout>
 
