@@ -14,7 +14,6 @@ import androidx.appcompat.app.AppCompatActivity
 class AddStudentActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_add_student)
 
         findViewById<TextView>(R.id.loginStudentBtn).setOnClickListener {

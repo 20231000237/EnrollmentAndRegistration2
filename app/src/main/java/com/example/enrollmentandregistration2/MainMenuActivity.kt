@@ -16,7 +16,6 @@ import androidx.core.view.WindowInsetsCompat
 class MainMenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main_menu)
 
         // display logged in student info
